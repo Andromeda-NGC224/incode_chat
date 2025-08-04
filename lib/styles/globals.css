@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+:root {
+  --color-grad-from: #c084fc;
+  --color-grad-to: #22d3ee;
+}
+
+@theme {
+  --color-main-text: #ffffff; /* white */
+  --color-gray-text: #d1d5db; /* gray-300 */
+  --color-darkgray-text: #9ca3af; /* gray-400 */
+
+  --color-bluelight-text: #a5f3fc; /* cyan-200 */
+  --color-bluedark-text: #22d3ee; /* cyan-400 */
+  --color-purple-text: #c084fc; /* purple-400*/
+  --color-green-text: #4ade80; /* green-400 */
+
+  --color-gradient: linear-gradient(
+    to right,
+    var(--color-grad-from),
+    var(--color-grad-to)
+  );
+}
